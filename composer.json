@@ -1,0 +1,21 @@
+{
+    "name": "oeuvres/teinte_convert",
+    "description": "Convert text files, from and to TEI",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Obtic\\Teinte\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Frédéric Glorieux",
+            "email": "frederic.glorieux@fictif.org",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "oeuvres/teinte": "dev-main"
+    },
+    "minimum-stability": "dev"
+}
