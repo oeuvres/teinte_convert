@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '5422e2ee924ba201623855865613d64b346ebabc',
+        'reference' => '9a70042af6e57078ac3841c027dbe2f914f7b8e2',
         'name' => 'oeuvres/teinte_convert',
         'dev' => true,
     ),
@@ -38,7 +38,7 @@
             'aliases' => array(
                 0 => '9999999-dev',
             ),
-            'reference' => '2179f15ef4ad0505010d151fbdfa8ada5f49f452',
+            'reference' => '1ea3331f444f5b25783aeb7ab5f381e51c8a3b9d',
             'dev_requirement' => false,
         ),
         'oeuvres/teinte' => array(
@@ -49,7 +49,7 @@
             'aliases' => array(
                 0 => '9999999-dev',
             ),
-            'reference' => '961c4a50c05fe0316ab946790238ebe16f27e319',
+            'reference' => '1a96bb55050c0ea998b4b0b7fc9245d7be641ec8',
             'dev_requirement' => false,
         ),
         'oeuvres/teinte_convert' => array(
@@ -58,7 +58,18 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '5422e2ee924ba201623855865613d64b346ebabc',
+            'reference' => '9a70042af6e57078ac3841c027dbe2f914f7b8e2',
+            'dev_requirement' => false,
+        ),
+        'oeuvres/xsl' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../oeuvres/xsl',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'reference' => '4674dca438e9bac195fca6f9a0c108da6d401fc1',
             'dev_requirement' => false,
         ),
         'psr/log' => array(

@@ -118,12 +118,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/oeuvres/kit.git",
-                "reference": "2179f15ef4ad0505010d151fbdfa8ada5f49f452"
+                "reference": "1ea3331f444f5b25783aeb7ab5f381e51c8a3b9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oeuvres/kit/zipball/2179f15ef4ad0505010d151fbdfa8ada5f49f452",
-                "reference": "2179f15ef4ad0505010d151fbdfa8ada5f49f452",
+                "url": "https://api.github.com/repos/oeuvres/kit/zipball/1ea3331f444f5b25783aeb7ab5f381e51c8a3b9d",
+                "reference": "1ea3331f444f5b25783aeb7ab5f381e51c8a3b9d",
                 "shasum": ""
             },
             "require": {
@@ -133,7 +133,7 @@
                 "php": ">=7.2",
                 "psr/log": "1.1.4"
             },
-            "time": "2022-12-15T22:22:04+00:00",
+            "time": "2022-12-19T20:51:40+00:00",
             "default-branch": true,
             "type": "library",
             "installation-source": "dist",
@@ -177,21 +177,22 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/oeuvres/teinte_php.git",
-                "reference": "961c4a50c05fe0316ab946790238ebe16f27e319"
+                "reference": "1a96bb55050c0ea998b4b0b7fc9245d7be641ec8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oeuvres/teinte_php/zipball/961c4a50c05fe0316ab946790238ebe16f27e319",
-                "reference": "961c4a50c05fe0316ab946790238ebe16f27e319",
+                "url": "https://api.github.com/repos/oeuvres/teinte_php/zipball/1a96bb55050c0ea998b4b0b7fc9245d7be641ec8",
+                "reference": "1a96bb55050c0ea998b4b0b7fc9245d7be641ec8",
                 "shasum": ""
             },
             "require": {
                 "erusev/parsedown-extra": "dev-master",
                 "ext-tidy": "*",
                 "oeuvres/kit": "dev-main",
+                "oeuvres/xsl": "dev-main",
                 "php": ">=7.2"
             },
-            "time": "2022-12-17T20:27:00+00:00",
+            "time": "2022-12-19T21:47:47+00:00",
             "default-branch": true,
             "bin": [
                 "bin/teinte"
@@ -219,6 +220,47 @@
                 "source": "https://github.com/oeuvres/teinte_php/tree/main"
             },
             "install-path": "../oeuvres/teinte"
+        },
+        {
+            "name": "oeuvres/xsl",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/oeuvres/teinte_xsl.git",
+                "reference": "4674dca438e9bac195fca6f9a0c108da6d401fc1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/oeuvres/teinte_xsl/zipball/4674dca438e9bac195fca6f9a0c108da6d401fc1",
+                "reference": "4674dca438e9bac195fca6f9a0c108da6d401fc1",
+                "shasum": ""
+            },
+            "time": "2022-12-19T21:44:30+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Oeuvres\\Xsl\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Frédéric Glorieux",
+                    "email": "frederic.glorieux@fictif.org"
+                }
+            ],
+            "description": "XSLT-1.0 package to transform texts, from and to, TEI",
+            "support": {
+                "issues": "https://github.com/oeuvres/teinte_xsl/issues",
+                "source": "https://github.com/oeuvres/teinte_xsl/tree/main"
+            },
+            "install-path": "../oeuvres/xsl"
         },
         {
             "name": "psr/log",

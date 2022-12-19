@@ -13,6 +13,7 @@ class ComposerStaticInit022c994c29fae66ce70dd94691e4cffb
         ),
         'O' => 
         array (
+            'Oeuvres\\Xsl\\' => 12,
             'Oeuvres\\Teinte\\' => 15,
             'Oeuvres\\Kit\\' => 12,
             'Obtic\\Teinte\\' => 13,
@@ -23,6 +24,10 @@ class ComposerStaticInit022c994c29fae66ce70dd94691e4cffb
         'Psr\\Log\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
+        'Oeuvres\\Xsl\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/oeuvres/xsl',
         ),
         'Oeuvres\\Teinte\\' => 
         array (

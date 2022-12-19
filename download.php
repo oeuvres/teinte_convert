@@ -94,7 +94,7 @@ $tei->load($tei_file);
 
 // html Export
 if ($format == "html") {
-    $content = ltrim($tei->toXml('html', ['theme' => 'https://oeuvres.github.io/teinte/theme/']));
+    $content = ltrim($tei->toXml('html', ['theme' => 'https://oeuvres.github.io/teinte_theme/']));
     $length = Http::length($content);
     header("Content-Length: $length", true);
     header("Accept-Ranges: $length", true);

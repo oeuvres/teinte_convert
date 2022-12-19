@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
+    'Oeuvres\\Xsl\\' => array($vendorDir . '/oeuvres/xsl'),
     'Oeuvres\\Teinte\\' => array($vendorDir . '/oeuvres/teinte/src'),
     'Oeuvres\\Kit\\' => array($vendorDir . '/oeuvres/kit/src'),
     'Obtic\\Teinte\\' => array($baseDir . '/src'),
